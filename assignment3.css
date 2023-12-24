@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    /*navbar*/
+    .navbar{
+    background-color: #F5F8FA;
+    width: 70%;
+    margin: 40px auto;
+    display: block;
+    height: 1000px;
+    }
+    
+     
+    ul > li{
+       list-style-type: none;
+       margin-bottom: 20px;
+       margin-right: 10px;  
+    }
+    
+    ul > li> a{
+    text-decoration: none;
+    color:  #1D2C3C;
+    font-weight: 600;
+    font-size: 12px;
+    /* text-align: center; */
+    }
+    
+    ul{
+    margin-top: 20px;
+    display: flex;
+    border-bottom: solid 1px  #1D2C3C;
+    gap: 5px;
+    width: 100%;
+    }
+    
+    ul > li >img{
+    margin-right: 180px;
+    }
+    #account{
+        border: 2px solid #548BC5;
+        border-radius: 4px;
+        padding: 7px;
+       
+    }
+
+
+    /*main-content*/
+    #check{
+    border-bottom: solid 1px rgb(213, 210, 210);
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    }
+     #cont{
+     border-bottom: solid 2px black;
+     width: 150%;
+     }
+    div > h4{
+        text-shadow: 2px 2px rgb(230, 224, 224);
+    }
+    
+    .main-content{
+     margin: auto;
+     
+    }
+    
+    .card{
+        margin-top: 40px;
+        box-shadow:1px 2px 3px 4px  rgb(235, 231, 231) ;
+        width: 100%;
+        margin: auto;
+        }
+        
+        
+        .para{
+        display: flex;
+        gap: 7px;
+        margin-top: 20px;
+        margin-left: 30px;
+        }
+        #number{
+            color: #548BC5;
+            border: solid 1px #548BC5;
+            border-radius: 50%;
+            height: 23px;
+            width: 23px;
+            vertical-align: middle;
+            text-align:center;
+            position:relative; /*makes left effective*/
+            display:table-cell
+            }
+            
+            input{
+            background-color: rgb(230, 229, 229);
+            border: none;
+            border-radius: 3px;
+            
+            }
+            
+            label{
+            color: #1D2C3C;
+            
+        }
+        .form-control{
+            background-color: rgb(230, 229, 229);
+            border: none;
+        }
+        
+        .mt-4 > input{
+        width: 70%;
+        }
+        .para2{
+            display: flex;
+            gap: 7px;
+            margin-top: 60px;
+            border-top: solid 1px rgb(213, 210, 210);
+            padding-bottom: 25px;
+            padding-top: 25px;
+            margin-top: 20px;
+           
+        }
+        
+        form{
+            border-bottom: solid 1px rgb(213, 210, 210);
+            padding-bottom: 25px;
+            padding-top: 15px;
+        
+            margin-left: 30px;
+        }
+        
+        button{
+        margin-top: 20px;
+            width: 80%;
+            height: 52px;
+            top: 788px;
+            left: 311px;
+            background-color: #038E7D;
+            color: white;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: -0.39600005745887756px;
+            text-align: center; 
+            border: none;
+            border-radius: 4px;
+            margin-left: 50px;
+           
+        }
+        
+        .help{
+            display: flex;
+            gap: 7px;
+           margin: auto;
+            padding-bottom: 25px;
+            padding-top: 25px;
+           
+            width: 55%;
+            
+        }
+        #fa{
+            color: #548BC5;
+            border: solid 1px #548BC5;
+            border-radius: 50%;
+            height: 25px;
+            width: 25px;
+            margin-left: 40px;
+            margin-top: 2px;
+            vertical-align: middle;
+            text-align:center;
+            position:relative; /*makes left effective*/
+            display:table-cel;
+            
+        }
+        
+        
+        .badges{
+            text-align:center;
+            position:relative; /*makes left effective*/
+            display:table-cel
+        }
+        
+        .copy{
+        margin-top: 20px;
+        
+        text-align: center;
+color: #636B6F;
+}
+
+.plan{
+    font-family: Lato;
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 72px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    
+}
+
+
+/* col-sm-4*/
+.freelancer{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #FFFFFF;
+    }
+    
+    #auto{
+    font-style: italic;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+    }
+    
+    
+    sup{
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: -0.014999999664723873px;
+        text-align: left;
+        
+    }
+    
+    .client{
+        display: flex;
+        gap: 4px;
+  
+    }
+    
+    .checks{
+        
+        border: solid 1px #B9F5FF;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        margin-left: 40px;
+        vertical-align: middle;
+        text-align:center;
+        position:relative; /*makes left effective*/
+        display:table-cel;
+       font-size: 10px;
+       margin-top: 5px;
+       color: #B9F5FF;
+    
+    }
+    
+    .support{
+        width: 200px;
+        height: 96px;
+        left: 31px;
+        color: white;
+       
+    }
+    .client{
+        display: flex;
+        gap: 4px;
+      
+    }
+
+.checks{
+    border: solid 1px #B9F5FF;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-left: 40px;
+    vertical-align: middle;
+    text-align:center;
+    position:relative; /*makes left effective*/
+    display:table-cel;
+   font-size: 10px;
+   margin-top: 5px;
+   color: #B9F5FF;
+}
+
+.support{
+    width: 200px;
+    height: 96px;
+    left: 31px;
+    color: white;
+   
+}
+.need{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    margin-left: 40px;
+    border-bottom:  solid 2px #b9b9b9 ;
+    margin-bottom: 50px;
+    
+    
+    }
+    
+    #switch{
+    border-bottom: solid 4px #b9b9b9;
+    width: 80%;
+    font-weight: 400;
+    margin-bottom: 50px;
+    }
+    
+    #sites{
+     font-weight: 700;
+     letter-spacing: -0.01 px;
+    }
+    
+    .ftp{
+    color: #FFFFFF;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+    margin-left: 40px;
+    }
+    
+    #images{
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .last{
+    margin-top: 40px;
+    color: #FFFFFF;
+    margin-left: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    
+    } 
